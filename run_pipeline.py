@@ -45,7 +45,7 @@ def main():
     print("3. Model testing and observability")
     
     # Step 1: Install dependencies
-    if not run_command("pip install -r requirements.txt", "Installing dependencies"):
+    if not run_command("pip install --user -r requirements.txt", "Installing dependencies"):
         print("Failed to install dependencies. Please check requirements.txt")
         return
     

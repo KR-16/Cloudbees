@@ -1,0 +1,10 @@
+artifact_location: file:C:/Users/keert/Downloads/Cloudbees/mlruns/138709130073039525/models/m-1d87313d508c4f97a982e76f17c37850/artifacts
+creation_timestamp: 1758429315278
+experiment_id: '138709130073039525'
+last_updated_timestamp: 1758429320441
+model_id: m-1d87313d508c4f97a982e76f17c37850
+model_type: null
+name: model
+source_run_id: e959ca9522414602b9ff09b073073699
+status: 2
+status_message: null

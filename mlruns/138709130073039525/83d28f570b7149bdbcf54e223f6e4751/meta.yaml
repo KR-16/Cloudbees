@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/keert/Downloads/Cloudbees/mlruns/138709130073039525/83d28f570b7149bdbcf54e223f6e4751/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '138709130073039525'
+lifecycle_stage: active
+run_id: 83d28f570b7149bdbcf54e223f6e4751
+run_name: iris_rf_v20250921_000324
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758427406245
+status: 1
+tags: []
+user_id: keert

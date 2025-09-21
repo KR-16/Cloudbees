@@ -87,7 +87,7 @@ def load_latest_model():
             with open(metadata_path, 'r') as f:
                 model_metadata = json.load(f)
         else:
-            model_metadata = {"model_version": latest_version.version}
+            model_metadata = {"model_version": str(latest_version.version)}
         
         logger.info(f"Model loaded successfully: version {latest_version.version}")
         return True
@@ -119,7 +119,7 @@ async def health_check():
     return HealthResponse(
         status="healthy" if model is not None else "unhealthy",
         model_loaded=model is not None,
-        model_version=model_metadata.get("model_version") if model_metadata else None,
+        model_version=str(model_metadata.get("model_version")) if model_metadata and model_metadata.get("model_version") else None,
         total_predictions=len(prediction_history)
     )
 
